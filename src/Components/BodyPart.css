@@ -1,0 +1,14 @@
+.bodyPart{
+    transform: scale(1, 1);
+    transition: 0.1s all ease-in-out;
+    justify-content: center;
+    align-items: center;
+}
+.bodyPart:hover{
+  transform: scale(1.1, 1.1);
+}
+
+.bodyPart-text{
+  color: #3A1212;
+  text-transform: capitalize;
+}
